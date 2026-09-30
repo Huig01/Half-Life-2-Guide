@@ -1,1 +1,74 @@
-/* Theme Name: HalfLife */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.posts-list {
+    flex: 2;
+}
+
+.content-image {
+    flex: 1;
+}
+
+.content-image img {
+    width: 100%;
+    height: auto;
+}
+
+.achievement-card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.achievement-card h2 {
+    margin-bottom: 0.5rem;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.site-header {
+    background: #1e1e1e;
+    padding: 1rem;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    color: #f57c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.error-page {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.error-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.error-page p {
+    margin-bottom: 20px;
+}
