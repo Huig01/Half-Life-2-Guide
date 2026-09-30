@@ -27,12 +27,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://half-life-2-guide.local/half-life-episode-1/">
+                    <a href="http://half-life-2-guide.local/half-life-2-episode-1/">
                         Half-Life 2: Episode One
                     </a>
                 </li>
                 <li>
-                    <a href="http://half-life-2-guide.local/half-life-episode-2/">
+                    <a href="http://half-life-2-guide.local/half-life-2-episode-2/">
                         Half-Life 2: Episode Two
                     </a>
                 </li>
