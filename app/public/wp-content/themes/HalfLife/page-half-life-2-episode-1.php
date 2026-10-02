@@ -36,7 +36,7 @@
 
             <tr>
                 <td>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/achievements/achievement3.png" alt="Achievement 3">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Hl2_ep1_gnometospace.webp" alt="Achievement 3">
                 </td>
                 <td>Achievement naam</td>
                 <td>Beschrijving van de achievement.</td>
