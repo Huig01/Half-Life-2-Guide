@@ -2,7 +2,7 @@
 
 <main class="achievement-page">
 
-    <h1>Half-Life 2: Main Game Achievements</h1>
+    <h1>Half-Life 2: Episode 1 Achievements</h1>
 
     <table class="achievement-table">
         <thead>
