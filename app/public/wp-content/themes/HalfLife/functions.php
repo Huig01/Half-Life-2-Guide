@@ -18,16 +18,32 @@ function register_achievement_post_type() {
 
         'public' => true,
         'has_archive' => true,
+        'show_in_rest' => true,
+        'menu_icon' => 'dashicons-awards',
+
         'rewrite' => array(
             'slug' => 'achievement'
         ),
-        
+
+        'taxonomies' => array(
+            'category',
+            'post_tag'
+        ),
+
         'supports' => array(
             'title',
             'editor',
-            'thumbnail'
+            'thumbnail',
+            'excerpt'
         ),
     ));
 }
-
 add_action('init', 'register_achievement_post_type');
+
+function mijn_theme_styles() {
+    wp_enqueue_style(
+        'main-style',
+        get_stylesheet_uri()
+    );
+}
+add_action('wp_enqueue_scripts', 'mijn_theme_styles');
